@@ -54,7 +54,8 @@ gulp.task("watch", () => {
     browsersync.init({
 		server: "./dist/",
 		port: 4000,
-		notify: true
+		notify: true,
+        browser: "Chrome"
     });
     
     gulp.watch("./src/index.html", gulp.parallel("copy-html"));
