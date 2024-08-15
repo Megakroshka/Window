@@ -11,6 +11,24 @@ const modals = () => {
                     e.preventDefault();
                 }
 
+                /* if (e.target.classList.contains('popup_calc_button')) {
+                    if (!select.form || !select.width || !select.height) {
+                        modal.style.display = 'none';
+                    } else {
+                        hiddenModal();
+                        showModal();
+                    }
+                }
+
+                if (e.target.classList.contains('popup_calc_profile_button')) {
+                    if (!select.profile) {
+                        modal.style.display = 'none';
+                    } else {
+                        hiddenModal();
+                        showModal();
+                    }
+                } */
+
                 windows.forEach(item => {
                     item.style.display = 'none';
                 });
